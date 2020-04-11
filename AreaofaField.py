@@ -1,0 +1,6 @@
+length = float(input())
+width = float(input())
+area = float(length * width)
+print (length,"feet")
+print (width,"feet")
+print (area / 43560,"acre(s)")
