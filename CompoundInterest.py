@@ -1,0 +1,8 @@
+savings = float(input())
+yearone = float(savings * 1.04)
+yeartwo = float(yearone * 1.04)
+yearthree = float(yeartwo * 1.04)
+print ("$",savings)
+print ("$",round(yearone, 2), "after one year")
+print ("$",round(yeartwo, 2), "after two years")
+print ("$",round(yearthree, 2), "after three years")
